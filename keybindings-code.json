@@ -1,0 +1,25 @@
+[
+	{
+		"key": "ctrl+t",
+		"command": "workbench.action.terminal.focus"
+	},
+	{
+		"key": "ctrl+t",
+		"command": "workbench.action.focusActiveEditorGroup",
+		"when": "terminalFocus"
+	},
+	{
+		"key": "shift+alt+down",
+		"command": "editor.action.copyLinesDownAction",
+		"when": "editorTextFocus && !editorReadonly"
+	},
+	{
+		"key": "ctrl+shift+alt+down",
+		"command": "-editor.action.copyLinesDownAction",
+		"when": "editorTextFocus && !editorReadonly"
+	},
+	{
+		"key": "ctrl+n ctrl+t",
+		"command": "workbench.action.terminal.new"
+	}
+]
